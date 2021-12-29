@@ -43,7 +43,7 @@ Sisa proposal ini disusun sebagai berikut: Bagian II menyajikan PageRank dan var
 
 \subsection{Algoritma PageRank}
 
-PageRank \cite{brin1998anatomy} adalah algoritma perbatasan yang memberi peringkat halaman dengan mengacu pada struktur tautan Web. PageRank memperlakukan halaman sebagai node dan hyperlink sebagai tepi grafik. Setiap node memiliki nilai Rank sendiri dan mendistribusikannya secara merata ke tetangganya. Distribusi berulang tanpa batas sampai semua nilai peringkat konvergen. Distribusi stasioner dari Peringkat dianggap sebagai skor Peringkat akhir halaman. Untuk mencegah peningkatan nilai Rank yang tidak terbatas, jumlah semua Rank dibatasi menjadi 1, dan juga untuk setiap nilai Rank tidak boleh lebih besar dari 1. Nilai Rank \(r_{j}\) node \(j\) dihitung sebagai berikut:
+PageRank \cite{brin1998anatomy} adalah algoritma perbatasan yang memberi peringkat halaman dengan mengacu pada struktur tautan Web. PageRank memperlakukan halaman sebagai node dan hyperlink sebagai tepi grafik. Setiap node memiliki nilai Rank sendiri dan mendistribusikannya secara merata ke tetangganya. Distribusi berulang tanpa batas sampai semua nilai peringkat konvergen. Distribusi stasioner dari Peringkat dianggap sebagai skor Peringkat akhir halaman. Untuk mencegah peningkatan nilai Rank yang tidak terbatas, jumlah semua Rank dibatasi menjadi 1, dan juga untuk setiap nilai Rank tidak boleh lebih besar dari 1. Nilai Rank \(r_{j}\) node \(j\) dihitung sebagai berikut :
 \begin{eqnarray}
     r_{j} = \sum_{i\overrightarrow{\text {out}} j}{\frac {r_{i}} {L_{out}(i)}}\\
     r_{j} = \sum r_{ i } = 1
