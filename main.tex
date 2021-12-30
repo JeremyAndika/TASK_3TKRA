@@ -138,7 +138,7 @@ Seluruh halaman dari ko.wikipedia.org dirayapi dan disimpan ke dalam Hadoop HDFS
 Halaman-halaman diurai menggunakan penganalisis morfologi Korea untuk mengekstrak lemma. Program Hadoop MapReduce dikembangkan untuk menghitung kemunculan kata-kata di halaman. Berdasarkan data jumlah kata, TFIDFs untuk lemma setiap halaman dihitung untuk menentukan kata kunci, dan vektor kata kunci dibangun untuk setiap halaman.
 Vektor kata kunci dinyatakan dengan nilai TFIDF yang dihitung. Kesamaan antara halaman tetangga dihitung menggunakan jarak cosinus. Akhirnya, nilai peringkat ditentukan oleh Persamaan (4) menggunakan bobot yang dihitung.
 \begin{center}
-    \includegraphics[scale=0.5]{chart}
+    \includegraphics[scale=0.5]{Flowchart}
 
 Fig. 1. Arsitektur Sistem Eksperimen
 \end{center}
@@ -164,9 +164,6 @@ Dalam studi ini, kami menganalisis perilaku algoritma PageRank berbobot dan meng
 Varian baru dari algoritma PageRank berbobot diusulkan untuk menangani nol kesamaan antar halaman. Untuk pemrosesan data volume besar, algoritma yang diusulkan diimplementasikan dalam program MapReduce dan kumpulan data eksperimental diproses pada cluster Hadoop dari 5 node.
 Algoritma yang diusulkan telah diterapkan ke Wikipedia Korea untuk evaluasi kinerja. Dalam percobaan, kami menerapkan tiga algoritme: PageRank asli, PageRank berbobot Qias dkk.\cite{qiao2010simrank}, dan metode yang diusulkan.
 Dari percobaan kami telah mengamati metode yang diusulkan mencapai beberapa perbaikan dalam hal NDCG dibandingkan metode yang dibandingkan.
-
-\section{Pernyataan Resmi}
-Penelitian ini didukung oleh MSIP (Kementerian Sains, ICT dan Perencanaan Masa Depan), Korea, di bawah program dukungan ITRC (Pusat Penelitian Teknologi Informasi) (NIPA-2013-H0301-13-4009) yang diawasi oleh NIPA (Industri TI Nasional). Agensi Promosi)
 
 \bibliographystyle{IEEEtran}
 \bibliography{references}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2021.12.16)  30 DEC 2021 08:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2021.12.16)  30 DEC 2021 08:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -233,13 +233,13 @@ Underfull \hbox (badness 2726) in paragraph at lines 87--88
  []
 
 [2]
-<chart.jpg, id=19, 373.395pt x 438.13687pt>
-File: chart.jpg Graphic file (type jpg)
-<use chart.jpg>
-Package pdftex.def Info: chart.jpg  used on input line 141.
-(pdftex.def)             Requested size: 186.69704pt x 219.06789pt.
- [3 <./chart.jpg>]
-<graph.jpg, id=24, 547.2947pt x 367.3725pt>
+<Flowchart.png, id=19, 424.4658pt x 582.4962pt>
+File: Flowchart.png Graphic file (type png)
+<use Flowchart.png>
+Package pdftex.def Info: Flowchart.png  used on input line 141.
+(pdftex.def)             Requested size: 212.23238pt x 291.24739pt.
+ [3 <./Flowchart.png>]
+<graph.jpg, id=26, 547.2947pt x 367.3725pt>
 File: graph.jpg Graphic file (type jpg)
 <use graph.jpg>
 Package pdftex.def Info: graph.jpg  used on input line 156.
@@ -258,17 +258,17 @@ Before submitting the final camera ready copy, remember to:
 
 [4 <./graph.jpg>] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 2937 strings out of 478659
- 50338 string characters out of 2842091
+ 2935 strings out of 478659
+ 50348 string characters out of 2842091
  366395 words of memory out of 3000000
- 21049 multiletter control sequences out of 15000+600000
+ 21047 multiletter control sequences out of 15000+600000
  435494 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,19n,62p,1073b,258s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Jeremy Andika/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Jeremy Andika/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Jeremy Andika/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Jeremy Andika/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Jeremy Andika/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Jeremy Andika/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Jeremy Andika/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Jeremy Andika/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Jeremy Andika/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Jeremy Andika/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Jeremy Andika/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Jeremy Andika/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Jeremy Andika/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (4 pages, 317302 bytes).
+Output written on main.pdf (4 pages, 286412 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
+ 80 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
