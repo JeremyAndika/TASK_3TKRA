@@ -5,7 +5,7 @@
 
 \title{\textbf{Peningkatan Sebuah PageRank Berbobot Untuk Menangani Persamaan Tautan Nol}}
 \author{\IEEEauthorblockN{Jeremy Andika}\\
-\IEEEauthorblockA{Fakultas Teknologi Informasi}\\
+Fakultas Teknologi Informasi\\
 Institut Teknologi Batam\\
 Batam, Kepulauan Riau, Indonesia\\
 2022002@student.iteba.ac.id}
@@ -34,7 +34,7 @@ PageRank\cite{brin1998anatomy} merupakan salah satu algoritma peringkat terkenal
 
 Untuk mengatasi situasi ini, algoritma PageRank berbobot \cite{xing2004weighted, qiao2010simrank,kumar2013pagerank} telah diusulkan. Mereka memperhitungkan baik distribusi jumlah in-link untuk node tetangga, jumlah kunjungan ke halaman tetangga, atau kesamaan antar halaman. Masing-masing memiliki pro dan kontra. Pembobotan berbasis kesamaan antar halaman terdengar baik untuk konten-peringkat berbasis.
 
-Kami telah mencoba algoritma PageRank berbobot berbasis kesamaan antar halaman ke halaman Wikipedia bahasa Korea. Untuk menghitung kesamaan antar halaman, kami menggunakan model vektor \cite{}. Untuk mendapatkan representasi vektor untuk halaman, pertama-tama kami melakukan analisis morfologi untuk mengekstrak kata-kata. Berbeda dengan bahasa barat, kata benda dalam bahasa Korea menyampaikan informasi yang paling berarti. Karena karakteristik bahasa, kata benda diekstraksi untuk mengidentifikasi kata kunci. Kata kunci diidentifikasi menggunakan istilah frekuensi dan informasi frekuensi dokumen terbalik. Dengan kata kunci, representasi vektor untuk halaman diperoleh. Kemudian, kebetulan memiliki kesamaan nol ketika kesamaan antar halaman dihitung menggunakan produk dalam dari vektor tersebut. Sangat canggung untuk halaman tetangga yang tidak memiliki kesamaan. Makalah ini berkaitan dengan peningkatan PageRank berbobot berbasis kesamaan antar halaman untuk menangani kasus-kasus dengan tautan nol kesamaan.
+Kami telah mencoba algoritma PageRank berbobot berbasis kesamaan antar halaman ke halaman Wikipedia bahasa Korea. Untuk menghitung kesamaan antar halaman, kami menggunakan model vektor \cite{resnik1999semantic}. Untuk mendapatkan representasi vektor untuk halaman, pertama-tama kami melakukan analisis morfologi untuk mengekstrak kata-kata. Berbeda dengan bahasa barat, kata benda dalam bahasa Korea menyampaikan informasi yang paling berarti. Karena karakteristik bahasa, kata benda diekstraksi untuk mengidentifikasi kata kunci. Kata kunci diidentifikasi menggunakan istilah frekuensi dan informasi frekuensi dokumen terbalik. Dengan kata kunci, representasi vektor untuk halaman diperoleh. Kemudian, kebetulan memiliki kesamaan nol ketika kesamaan antar halaman dihitung menggunakan produk dalam dari vektor tersebut. Sangat canggung untuk halaman tetangga yang tidak memiliki kesamaan. Makalah ini berkaitan dengan peningkatan PageRank berbobot berbasis kesamaan antar halaman untuk menangani kasus-kasus dengan tautan nol kesamaan.
 
 Sisa proposal ini disusun sebagai berikut: Bagian II menyajikan PageRank dan variannya secara lebih rinci. Bagian III memperkenalkan peningkatan pada PageRank berbobot, dan Bagian IV menunjukkan beberapa hasil eksperimen untuk metode yang diusulkan. Kami menarik kenotasian di Bagian V.
 
